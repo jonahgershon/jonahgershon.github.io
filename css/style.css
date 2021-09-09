@@ -509,56 +509,18 @@ nav {
   position: absolute;
   font-size: 2em;
   font-weight: 800;
-  margin-left: 23%;
-  margin-top: -220px;
 }
 
 .food_tiles .food001 img {
-  background-color: var(--red);
+  background-color: var(--black);
 }
 
 .food_tiles .food001 .overlay {
-  color: #ffb3b9;
-}
-
-.food_tiles .food002 img {
-  background-color: var(--orange);
-}
-
-.food_tiles .food002 .overlay {
-  color: #ffd9ad;
-}
-
-.food_tiles .food003 img {
-  background-color: var(--yellow);
-}
-
-.food_tiles .food003 .overlay {
-  color: #fced99;
-}
-
-.food_tiles .food004 img {
-  background-color: var(--green);
-}
-
-.food_tiles .food004 .overlay {
-  color: #c6f194;
-}
-
-.food_tiles .food005 img {
-  background-color: var(--blue);
-}
-
-.food_tiles .food005 .overlay {
-  color: #a6e1ff;
-}
-
-.food_tiles .food006 img {
-  background-color: var(--pink);
-}
-
-.food_tiles .food006 .overlay {
-  color: #FFD8FC;
+  color: var(--white);
+  font-size: 2.5em;
+  text-align: center;
+  margin-top: -240px;
+  line-height: 2m;
 }
 
 .food_tiles li:hover img {

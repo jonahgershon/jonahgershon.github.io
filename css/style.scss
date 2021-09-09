@@ -403,7 +403,6 @@ nav{
     }
 }
 
-
 .food_tiles{
     ul{
         width: 400px;
@@ -429,58 +428,21 @@ nav{
      .overlay{
         position: absolute;
         font-size: 2em;
-        font-weight: 800;
-        margin-left: 23%;   
-        margin-top: -220px; 
+        font-weight: 800;  
     }
     .food001{
         img{
-        background-color: var(--red);
+        background-color: var(--black);
         }
         .overlay{
-            color: #ffb3b9;;
+            color: var(--white);;
+            font-size: 2.5em;
+            text-align: center;
+            margin-top: -240px;
+            line-height: 2m;
         }
     }
-    .food002 {
-        img{
-            background-color: var(--orange);
-        }
-        .overlay{
-            color:#ffd9ad;
-        }
-    }
-    .food003{
-        img{
-            background-color: var(--yellow);
-        }
-        .overlay{
-            color: #fced99;
-        }
-    }
-    .food004 {
-        img{
-            background-color: var(--green);
-        }
-        .overlay{
-            color: #c6f194;
-        }
-    }
-    .food005 {
-        img{
-            background-color: var(--blue);
-        }
-        .overlay{
-            color: #a6e1ff;
-        }
-    }
-    .food006 { 
-        img{
-            background-color: var(--pink);
-        }   
-        .overlay{
-            color: #FFD8FC;
-        }
-    }
+    
     
     li:hover{     
         img{
