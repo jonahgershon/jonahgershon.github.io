@@ -232,9 +232,8 @@ nav {
 
 .recipe_title {
   background: url("../images/foods.svg");
-  background-position: 45% 15%;
+  background-position: 45% 30%;
   width: 100%;
-  margin-top: 5em;
   background-repeat: no-repeat;
 }
 
