@@ -182,7 +182,7 @@ nav{
 .recipe_title{
     background: url("../images/foods.svg");
     background-position: 45% 15%;
-    width: 4%;
+    width: 100%;
     margin-top: 5em;
     background-repeat: no-repeat;
 }
@@ -856,7 +856,6 @@ nav{
     }
     .recipe_title{
         margin-top: -8em;
-        width: 100%;
         h1{
             font-size: 5em;
             padding: 3.5em 0 7em 3em;
