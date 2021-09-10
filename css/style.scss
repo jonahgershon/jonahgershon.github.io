@@ -180,8 +180,7 @@ nav{
 
 .recipe_title{
     background: url("../images/foods.svg");
-    background-position: 45% 30%;
-    
+    background-position: 45% 40%;
     width: 100%;
     background-repeat: no-repeat;
 }
@@ -593,13 +592,17 @@ nav{
             font-size: 2.5em;
         }
     }
+
     .recipe_title{
-        background-size: 800%;
+        width: 100%;
         background-repeat: none;
+        background-position: 30% 120%;
         h1{
-            padding-top: 2em;
-            font-size: 9em;
+            padding-top: 15em;
+            font-size: 2.7em;
+            margin: -9em 0 10em -.1em;
         }
+        
     }
 
     .nav-tabs{
@@ -628,7 +631,7 @@ nav{
             width: 300px;
         }
         li{
-            margin-top: 2em;
+            margin-top: -18em;
         }
     }
 
@@ -705,16 +708,30 @@ nav{
     }
 }
  
-@media only screen and (min-width: 650px) {
+@media only screen and (min-width: 400px) {
     .title h1{
         font-size: 4em;
         padding: 3em 0em 10em 10%;
     }
-    .recipe_title h1{
-        font-size: 4em;
-        padding: 6em 0em 10em 10%;
-        margin-top: -1em;
+
+    .recipe_title{
+        width: 100%;
+        background-position: 30% 90%;
+        h1{
+            padding-top: 15em;
+            font-size: 4em;
+            margin: -10.6em 0 5em -.1em;
+        }
+        
+
     }
+
+    .food_tiles{
+        li{
+            margin-top: -4em;
+        }
+    }
+
     .down-arrow svg{
         margin: -35em auto 25em auto;
     }
@@ -730,6 +747,20 @@ nav{
     }
 }
  
+@media only screen and (min-width: 650px) {
+    .recipe_title{
+        width: 100%;
+        background-position: 30% 90%;
+        h1{
+            padding-top: 15em;
+            font-size: 4.5em;
+            margin: -11.5em 0 5em -.1em;
+        }
+        
+
+    }
+}
+
 @media only screen and (min-width: 900px) {
     .title{
         margin-top: -7em;
@@ -739,12 +770,13 @@ nav{
         }
     }
     .recipe_title{
-        margin-top: -7em;
+        background-position: 30% 85%;
         h1{
             font-size: 5em;
-            padding: 3.5em 0 7em 1.9em;
+            margin: -12em 0 4em .6em;
         }
     }
+
     .burger{
         display: none;
     }
@@ -761,8 +793,6 @@ nav{
         display: flex;
         color: var(--black);
     }
-
-
 
     .recipe-hero img{
         margin-top: -10em;
@@ -782,7 +812,6 @@ nav{
     }
 
     .food_tiles{
-    
         ul{
             columns: 2;
             column-gap: 4em;
@@ -803,6 +832,16 @@ nav{
         font-size: 5em;
     }
 }
+
+@media only screen and (min-width: 1000px) {
+    .recipe_title{
+        background-position: 30% 85%;
+        h1{
+            font-size: 5em;
+            margin: -11em 0 3em .2em;
+        }
+    }
+}
  
 @media only screen and (min-width: 1250px) {
     .title{
@@ -812,13 +851,15 @@ nav{
             padding: 3.5em 0 7em 3em;
         }
     }
+    
     .recipe_title{
-        margin-top: -8em;
+        background-position: 30% 85%;
         h1{
             font-size: 5em;
-            padding: 3.5em 0 7em 3em;
+            margin: -11em 0 3em .2em;
         }
     }
+    
 
     .down-arrow svg{
         margin-top: -31em;
@@ -841,6 +882,7 @@ nav{
             margin: 0 auto 2em auto;
         }
     }
+
 
     .recipe-arrow svg{
         display: block;
