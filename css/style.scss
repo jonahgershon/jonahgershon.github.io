@@ -436,7 +436,7 @@ nav{
             color: var(--white);;
             font-size: 2.5em;
             text-align: center;
-            margin-top: -240px;
+            margin-top: -260px;
             line-height: 2m;
         }
     }
@@ -499,7 +499,6 @@ nav{
 }
 
 .recipe-hero{
-    margin-top: 5em;
     img{
         position: relative;
         width: 100%;
@@ -773,7 +772,7 @@ nav{
         background-position: 30% 85%;
         h1{
             font-size: 5em;
-            margin: -12em 0 4em .6em;
+            margin: -10em 0 4em .6em;
         }
     }
 
@@ -829,6 +828,7 @@ nav{
     }
 
     .recipe-hero span{
+        margin-top: -35%;
         font-size: 5em;
     }
 }
@@ -886,7 +886,7 @@ nav{
 
     .recipe-arrow svg{
         display: block;
-        margin: -19em auto 25em auto;
+        margin: -15em auto 25em auto;
     }
 
     .recipe-header{
@@ -902,7 +902,7 @@ nav{
     }
 
     .recipe-hero span{
-        margin-top: -45%;
+        margin-top: -35%;
         font-size: 7.5em;
     }
 }

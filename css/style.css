@@ -518,7 +518,7 @@ nav {
   color: var(--white);
   font-size: 2.5em;
   text-align: center;
-  margin-top: -240px;
+  margin-top: -260px;
   line-height: 2m;
 }
 
@@ -578,10 +578,6 @@ nav {
 
 .policy a {
   color: #2B2B2B;
-}
-
-.recipe-hero {
-  margin-top: 5em;
 }
 
 .recipe-hero img {
@@ -847,7 +843,7 @@ nav {
   }
   .recipe_title h1 {
     font-size: 5em;
-    margin: -12em 0 4em .6em;
+    margin: -10em 0 4em .6em;
   }
   .burger {
     display: none;
@@ -900,6 +896,7 @@ nav {
     margin-top: -10em;
   }
   .recipe-hero span {
+    margin-top: -35%;
     font-size: 5em;
   }
 }
@@ -950,7 +947,7 @@ nav {
   }
   .recipe-arrow svg {
     display: block;
-    margin: -19em auto 25em auto;
+    margin: -15em auto 25em auto;
   }
   .recipe-header {
     margin-top: -4em;
@@ -963,7 +960,7 @@ nav {
     padding: 0 10em;
   }
   .recipe-hero span {
-    margin-top: -45%;
+    margin-top: -35%;
     font-size: 7.5em;
   }
 }
